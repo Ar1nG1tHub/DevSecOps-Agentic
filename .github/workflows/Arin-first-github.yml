@@ -5,6 +5,5 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      name: echo a string
-      run: echo "Hello: Welcome to Arindam Agentic DevOps World"
-
+      - name: Echo a string
+        run: echo "Hello! Welcome to Arin Agentic DevOps"
